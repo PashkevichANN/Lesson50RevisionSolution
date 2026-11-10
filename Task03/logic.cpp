@@ -8,7 +8,7 @@
 // для работы с некорректными данными (в данном случае функция должна 
 // возвращать значение false).
 #include "logic.h"
-
+//O(N*N)
 bool is_the_same_elements(int array[], int size) {
 
 	for (int i = 0; i < size-1; i++) { // тут у меня получилось 

@@ -9,9 +9,11 @@
 // для работы с некорректными данными.
 #include "logic.h"
 
-
+//O(N)
 void swap_extrem_elements(int array[], int size) {
-
+	if (size < 0) {
+		return;
+	}
 	int min_index = 0;
 	int max_index = 0;
 

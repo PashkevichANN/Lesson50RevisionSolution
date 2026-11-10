@@ -8,7 +8,7 @@
 // для работы с некорректными данными (в данном случае функция должна 
 // возвращать значение -1).
 #include "logic.h"
-
+//O(N)
 int count_nonzero_elements(int array[], int size) {
 	int sum = 0;
 	if (size <= 0) {
