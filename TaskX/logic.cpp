@@ -22,7 +22,7 @@ void reverse(int array[], int size, int a, int b) {
 	array[b] = t;
 
 	int m = a++;
-	for (m; m < b-1; m++) {
+	for (m; m < b; m++) {
 		array[m] = array[m++];
 	}
 
